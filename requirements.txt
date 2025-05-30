@@ -1,0 +1,38 @@
+# FastAPI framework and related
+fastapi>=0.95.0
+uvicorn>=0.22.0
+python-multipart>=0.0.6
+pydantic>=2.0.0
+pydantic_settings>=0.2.0
+
+
+# Database
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.7
+alembic>=1.11.0
+databases[postgresql]>=0.7.0
+
+# HTTP client
+httpx>=0.24.1
+
+# MQTT client
+paho-mqtt>=2.1.0
+
+# JavaScript execution
+js2py>=0.74
+
+# Redis
+redis>=4.6.0
+
+# Security and authentication
+python-jose>=3.3.0
+passlib>=1.7.4
+
+# Utility libraries
+python-dateutil>=2.8.2
+pytz>=2023.3
+aiofiles>=23.1.0
+
+# Logging and monitoring
+prometheus-client>=0.17.0
+structlog>=23.1.0
