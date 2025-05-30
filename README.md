@@ -1,4 +1,4 @@
-# Device Manager Ingest Service
+# Node Dash Ingest Service
 
 ## Overview
 
