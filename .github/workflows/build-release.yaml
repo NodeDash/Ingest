@@ -26,4 +26,4 @@ jobs:
     - name: Build the Docker image
       run: |
         docker login registry.nodedash.app -u cicd -p ${{ secrets.REGISTRY_PASSWORD }}
-        docker buildx build --push --platform linux/amd64,linux/arm64 . -t registry.nodedash.com/nodedash/ingest:${{ steps.vars.outputs.tag }}
+        docker buildx build --push --platform linux/amd64,linux/arm64 . -t registry.nodedash.app/nodedash/ingest:${{ steps.vars.outputs.tag }}
